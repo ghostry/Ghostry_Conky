@@ -50,7 +50,7 @@ color2 ffffff
 own_window_colour 000000
 
 TEXT
-${voffset 11} ${goto 30}${time %I} ${goto 110}${time %M}
+${voffset 11} ${goto 30}${time %H} ${goto 110}${time %M}
 ${image ./b.png -p 0,0 -s 188x100}
 ${voffset -180} ${goto 240}${font AvantGarde LT Medium:size=10}${time %a} ${font}
 ${font AvantGarde LT Medium:size=38}${voffset -65}${goto 225}${time %d}

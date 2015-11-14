@@ -13,7 +13,7 @@ use_xft yes
 #xftfont DejaVu Sans Mono:size=12
 xftfont WenQuanYi Zen Hei:pixelsize=16
 override_utf8_locale yes
-minimum_size 300 820
+minimum_size 300 700
 maximum_width 500
 net_avg_samples 2
 no_buffers yes
@@ -26,10 +26,10 @@ own_window_type desktop
 #own_window_type normal
 #own_window_type override
 #own_window_type panel
-own_window_transparent true
+#own_window_transparent true
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 double_buffer yes
-own_window_colour 573049
+own_window_colour 000000
 own_window_argb_visual yes
 own_window_argb_value 150
 stippled_borders 0
