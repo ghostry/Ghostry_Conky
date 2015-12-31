@@ -13,8 +13,8 @@ use_xft yes
 #xftfont DejaVu Sans Mono:size=12
 xftfont WenQuanYi Zen Hei:pixelsize=16
 override_utf8_locale yes
-minimum_size 300 700
-maximum_width 500
+minimum_size 300 800
+maximum_width 300
 net_avg_samples 2
 no_buffers yes
 out_to_console no
@@ -44,6 +44,11 @@ gap_y 130
 
 
 TEXT
+${font Weather :pixelsize=88}${exec ./weather.sh 1}${alignr}${font Weather :pixelsize=24}y${font WenQuanYi Zen Hei:pixelsize=18}${exec ./weather.sh 0}
+#${font Weather :pixelsize=64}abcdefg
+#hijklmn
+#opq rst
+#uvw xyz
 #${image /home/momo/.b.png -p -1521,-12 -s 1920x1080}
 #${image /home/momo/图片/Wallpapers/viman.jpg -p -1521,-12 -s 1366x768}
 #$hr

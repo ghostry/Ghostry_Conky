@@ -8,6 +8,10 @@ Ghostry's conky config file
     sudo service vnstat start
     cd ~/.conky
     git clone https://github.com/ghostry/Ghostry_Conky.git
+    mkdir ~/.fonts
+    cp weather.ttf ~/.fonts
+    fc-cache -fv
+    gedit weather.sh #修改地区编码为需要的地区。地区编码获取http://www.weather.com/weather/
 
 # 启用
 打开`conky-manager`->点击Themes->勾选Ghostry_Conky
