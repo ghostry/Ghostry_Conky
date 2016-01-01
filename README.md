@@ -9,7 +9,7 @@ Ghostry's conky config file
     cd ~/.conky
     git clone https://github.com/ghostry/Ghostry_Conky.git
     mkdir ~/.fonts
-    cp Climacons.ttf ~/.fonts
+    cp Ghostry_Conky/Climacons.ttf ~/.fonts
     fc-cache -fv
     gedit weather.sh #修改地区编码为需要的地区。地区编码获取http://www.weather.com/weather/
 
