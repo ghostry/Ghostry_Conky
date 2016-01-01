@@ -44,11 +44,12 @@ gap_y 130
 
 
 TEXT
-${font Weather :pixelsize=88}${exec ./weather.sh 1}${alignr}${font Weather :pixelsize=24}y${font WenQuanYi Zen Hei:pixelsize=18}${exec ./weather.sh 0}
-#${font Weather :pixelsize=64}abcdefg
+${font Climacons :pixelsize=88}${exec ./weather.sh 1}${alignr}${font Climacons :pixelsize=24}\ ${font WenQuanYi Zen Hei:pixelsize=32}${exec ./weather.sh 0} ${font Climacons :pixelsize=24}_
+#${font Climacons :pixelsize=28}abcdefg
 #hijklmn
 #opq rst
 #uvw xyz
+#123456789
 #${image /home/momo/.b.png -p -1521,-12 -s 1920x1080}
 #${image /home/momo/图片/Wallpapers/viman.jpg -p -1521,-12 -s 1366x768}
 #$hr
