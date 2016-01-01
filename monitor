@@ -44,7 +44,7 @@ gap_y 130
 
 
 TEXT
-${font Climacons :pixelsize=88}${exec ./weather.sh 1}${alignr}${font Climacons :pixelsize=24}\ ${font WenQuanYi Zen Hei:pixelsize=32}${exec ./weather.sh 0} ${font Climacons :pixelsize=24}_
+${alignc}${font Climacons :pixelsize=88}${exec ./weather.sh 1}${font Climacons :pixelsize=24}\ ${font WenQuanYi Zen Hei:pixelsize=32}${exec ./weather.sh 0} ${font Climacons :pixelsize=24}_
 #${font Climacons :pixelsize=28}abcdefg
 #hijklmn
 #opq rst
