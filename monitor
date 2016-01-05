@@ -14,7 +14,7 @@ use_xft yes
 xftfont WenQuanYi Zen Hei:pixelsize=16
 override_utf8_locale yes
 minimum_size 300 800
-maximum_width 300
+maximum_width 400
 net_avg_samples 2
 no_buffers yes
 out_to_console no
