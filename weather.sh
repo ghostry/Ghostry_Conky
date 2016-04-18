@@ -1,6 +1,6 @@
 #!/bin/bash
 #地区编码
-code="CHXX0072";
+code="101180801";
 #更新频率，单位：秒
 interval=3600;
 

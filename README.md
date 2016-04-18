@@ -14,7 +14,7 @@ Ghostry's conky config file
     mkdir ~/.fonts      #存在则跳过
     cp Ghostry_Conky/Climacons.ttf ~/.fonts
     fc-cache -fv
-    gedit weather.sh #修改地区编码为需要的地区。地区编码获取http://www.weather.com/weather/
+    gedit weather.sh #修改地区编码为需要的地区。地区编码获取http://dy.ghostry.cn/Home/Index/lookCitys.html找到城市后打开，在网址里有一串数字就是。
 
 # 启用
 打开`conky-manager`->点击Themes->勾选Ghostry_Conky
