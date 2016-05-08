@@ -16,8 +16,8 @@ else
                 `wget -O- $url >$cachefile`
         fi
 fi
-weather=$(cat /tmp/weather.cache);
-if [ "$1" -eq "1" ] ;then
+weather=$(cat $cachefile);
+if [ "$1" == "1" ] ;then
         echo $(echo $weather|awk '{print $1}');
 else
         echo $(echo $weather|awk '{print $2}');
